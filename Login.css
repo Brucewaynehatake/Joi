@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.wrapper {
+  animation: transitionIn 0.75s;
+}
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateX(-10deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+  }
+}
+
+html {
+  background-image: url(Bg2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh
+}
+
+h1 {
+  color: white;
+  font-family: "Outfit", sans-serif;
+  font-weight: bolder;
+  font-variant-caps: normal;
+}
+
+.wrapper {
+  background: transparent;
+  border: 1px solid white;
+  backdrop-filter: blur(5px);
+  width: 270px;
+  color: white;
+  border-radius: 15px;
+  padding: 20px 30px;
+  box-shadow: 0px 0px 5px 2.5px rgba(0, 0, 0, 0.3);
+}
+
+.wrapper h1 {
+  font-size: 32px;
+  font-variant-caps: normal;
+  text-align: center;
+}
+
+.inputbuttons input {
+  border-radius: 20px;
+  width: 95%;
+  color: white;
+  padding: 5px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 25px;
+  border: 1px solid white;
+  background: transparent;
+  transform: tranlateY(0px);
+  transition-timing-function: ease;
+  transition-duration: 0.3s;
+  font-weight: bold;
+}
+
+.inputbuttons input:hover {
+  transform: scale(0.95);
+}
+
+.inputbuttons input::placeholder {
+  color: white;
+  font-size: 12.5px;
+  margin: 10px;
+  padding: 10px 10px;
+  padding-left: 10px;
+  font-variant-caps: normal;
+  font-family: "Outfit", sans-serif;
+  font-weight: bold;
+}
+
+
+.inputbutton input {
+  border-radius: 20px;
+  color: white;
+  width: 95%;
+  padding: 5px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border: 1px solid white;
+  background: transparent;
+  transform: tranlateY(0px);
+  transition-timing-function: ease;
+  transition-duration: 0.3s;
+}
+
+.inputbutton input:hover {
+  transform: scale(0.95);
+}
+
+.inputbutton input::placeholder {
+  color: white;
+  font-size: 12.5px;
+  font-variant-caps: normal;
+  font-family: "Outfit", sans-serif;
+  font-weight: bold;
+  margin: 10px;
+  padding: 10px 10px 45px 10px;
+}
+
+.inputbuttons i {
+  position: absolute;
+  right: 50px;
+  padding-top: 38px;
+  transform: translateY(-50%);
+  font-size: 17.5px;
+}
+
+.inputbutton i {
+  position: absolute;
+  right: 30px;
+  margin: 20px 20px;
+  padding-bottom: -80px;
+  padding-top: -250x;
+  transform: translateY(-50%);
+  font-size: 17.5px;
+}
+
+.wrapper .remember-me {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12.5px;
+  padding-bottom: 0px;
+  padding-left: 5px;
+  margin-bottom: 20px;
+}
+
+.wrapper .submitbutton button{
+  width: 95%;
+  margin: 5px;
+  margin-top: 30x;
+  border-radius: 20px;
+  border-color: white;
+  padding: 10px 10px;
+  background: white;
+  outline: none;
+  border: none;
+  font-variant-caps: normal;
+  font-family: "Outfit", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: purple;
+  transform: tranlateY(0px);
+  transition-timing-function: ease;
+  transition-duration: 0.3s;
+}
+
+.wrapper .submitbutton button:hover{
+  box-shadow: 0px 0px 5px 2.5px rgba(0, 0, 0, 0.3);
+  transform: scale(0.95);
+}
+
+.wrapper .remember-me a{
+  color: white;
+  text-decoration: none;
+  padding-right: 5px;
+  padding-top: 5px;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
+
+.wrapper .remember-me a:hover{
+  text-decoration-line: underline;
+  text-decoration-color: white;
+  color: white;
+  transform: scale(0.95);
+}
+  
+p {
+   font-size: 12px;
+   color: white;
+   margin: 30px;
+   transition-duration: 0.3s;
+   transition-timing-function: ease;
+}
+
+.signup {
+   font-size: 12px;
+   color: white;
+   margin: 30px;
+   transition-duration: 0.3s;
+   transition-timing-function: ease;
+}
+
+.signup:hover {
+  transform: scale(0.95);
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: white;
+  color: white;
+  transform: scale(0.95);
+}
+
+label {
+  font-weight: bold;
+  font-family: "Outfit", sans-serif;
+}
